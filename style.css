@@ -52,7 +52,7 @@ p {
     margin: 0;
     margin-left: auto;
     margin-right: auto;
-    padding: 0;
+    padding: 0 1.5rem;
 }
 .grid {
     margin: 0;
@@ -212,3 +212,9 @@ section {
 .border {
     border: 0.1rem solid #f2f2f2;
 }
+
+@media (max-width: 768px) {
+    .grid-3-col, .grid-2-col {
+        grid-template-columns: 1fr;
+    }
+  }
