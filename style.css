@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Lato', sans-serif; 
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #444444;
+}
+h1 {
+    font-size: 4.6rem;
+    line-height: 6rem;
+}
+p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.container {
+    height: 100%;
+    width: 144rem;
+    max-width: 100%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+.grid {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-gap: 1rem;
+    height: 100%;
+    border: 1px solid #eee;
+}
+.color-grid {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 0.1rem;
+}
+.align-top {
+    align-items: start;
+}
+.align-center {
+    align-items: center;
+}
+.align-bottom {
+    align-items: center;
+}
+.justify-center {
+    justify-items: center;
+}
+.center-text {
+    text-align: center;
+}
+.align-self-top {
+    align-self: start;
+}
+.align-self-end {
+    align-self: end;
+}
+.justify-self-right {
+    justify-self: end;
+}
+
+/* Colors */
+.color-blue-1 {
+    color: #0087BE;
+}
+.color-blue-2 {
+    color: #145374;
+}
+.color-blue-3 {
+    color: #00334E;
+}
+.color-grey-1 {
+    color: #f2f2f2;
+}
+.color-grey-2 {
+    color: #E8E8E8;
+}
+.color-grey-3 {
+    color: #444444;
+}
+.color-white {
+    color: #FFFFFF;
+}
+
+
+
+/* Background colors */
+.background-color-blue-1 {
+    background-color: #0087BE;
+}
+.background-color-blue-2 {
+    background-color: #145374;
+}
+.background-color-blue-3 {
+    background-color: #00334E;
+}
+.background-color-grey-1 {
+    background-color: #f2f2f2;
+}
+.background-color-grey-2 {
+    background-color: #E8E8E8;
+}
+.background-color-grey-3 {
+    background-color: #444444;
+}
+.background-color-white {
+    background-color: #FFFFFF;
+}
+
+/* Preview */
+.color-box {
+    padding: 3rem;
+    BORDER: 0.1rem solid #f2f2f2;
+}
